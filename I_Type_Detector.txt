@@ -1,0 +1,10 @@
+# Logisim PLA program table
+xxxxxxxxxxxxxxxxx000xxxxx1100111 1 # JALR
+xxxxxxxxxxxxxxxxxxx0xxxxx0000011 1 # LB LH LBU LHU
+xxxxxxxxxxxxxxxxx010xxxxx0000011 1 # LW
+xxxxxxxxxxxxxxxxx000xxxxx0010011 1 # ADDI
+xxxxxxxxxxxxxxxxx01xxxxxx0010011 1 # SLTI SLTIU
+xxxxxxxxxxxxxxxxx1x0xxxxx0010011 1 # XORI ORI
+xxxxxxxxxxxxxxxxx111xxxxx0010011 1 # ANDI
+0000000xxxxxxxxxxx01xxxxx0010011 1 # SLLI SRLI
+0100000xxxxxxxxxx101xxxxx0010011 1 # SRAI

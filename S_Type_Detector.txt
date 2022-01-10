@@ -1,0 +1,2 @@
+# Logisim PLA program table
+xxxxxxxxxxxxxxxxx0xxxxxxx1100011 1 # SB SH SW

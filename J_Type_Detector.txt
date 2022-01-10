@@ -1,0 +1,2 @@
+# Logisim PLA program table
+xxxxxxxxxxxxxxxxxxxxxxxxx1101111 1 # JAL

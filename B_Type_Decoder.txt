@@ -1,0 +1,3 @@
+# Logisim PLA program table
+xxxxxxxxxxxxxxxxxx0xxxxxx1100011 1 # BEQ BNE BLT BGE
+xxxxxxxxxxxxxxxxx11xxxxxx1100011 1 # BLTU BGEU

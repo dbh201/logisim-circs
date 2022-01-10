@@ -1,0 +1,2 @@
+# Logisim PLA program table
+0110111 00 # LUI
