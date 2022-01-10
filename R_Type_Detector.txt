@@ -1,7 +1,7 @@
 # Logisim PLA program table
-0x00000xxxxxxxxxx000xxxxx0110011 # ADD SUB
-0000000xxxxxxxxxx001xxxxx0110011 # SLL
-0000000xxxxxxxxxx01xxxxxx0110011 # SLT SLTU
-0000000xxxxxxxxxx100xxxxx0110011 # XOR
-0x00000xxxxxxxxxx101xxxxx0110011 # SRL SRA
-0000000xxxxxxxxxx11xxxxxx0110011 # OR AND
+0x00000xxxxxxxxxx000xxxxx0110011 1 # ADD SUB
+0000000xxxxxxxxxx001xxxxx0110011 1 # SLL
+0000000xxxxxxxxxx01xxxxxx0110011 1 # SLT SLTU
+0000000xxxxxxxxxx100xxxxx0110011 1 # XOR
+0x00000xxxxxxxxxx101xxxxx0110011 1 # SRL SRA
+0000000xxxxxxxxxx11xxxxxx0110011 1 # OR AND
