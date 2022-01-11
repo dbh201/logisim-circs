@@ -1,2 +1,22 @@
 # Logisim PLA program table
-0000 0000 0000 0000 0 000 xxxxx 0110111 1 # LUI
+# output (3 bits): 1=R,2=I,3=S,4=B,5=U,6=J
+0x00000xxxxxxxxxx000xxxxx0110011 001 # ADD SUB
+0000000xxxxxxxxxx001xxxxx0110011 001 # SLL
+0000000xxxxxxxxxx01xxxxxx0110011 001 # SLT SLTU
+0000000xxxxxxxxxx100xxxxx0110011 001 # XOR
+0x00000xxxxxxxxxx101xxxxx0110011 001 # SRL SRA
+0000000xxxxxxxxxx11xxxxxx0110011 001 # OR AND
+xxxxxxxxxxxxxxxxx000xxxxx1100111 010 # JALR
+xxxxxxxxxxxxxxxxxxx0xxxxx0000011 010 # LB LH LBU LHU
+xxxxxxxxxxxxxxxxx010xxxxx0000011 010 # LW
+xxxxxxxxxxxxxxxxx000xxxxx0010011 010 # ADDI
+xxxxxxxxxxxxxxxxx01xxxxxx0010011 010 # SLTI SLTIU
+xxxxxxxxxxxxxxxxx1x0xxxxx0010011 010 # XORI ORI
+xxxxxxxxxxxxxxxxx111xxxxx0010011 010 # ANDI
+0000000xxxxxxxxxxx01xxxxx0010011 010 # SLLI SRLI
+0100000xxxxxxxxxx101xxxxx0010011 010 # SRAI
+xxxxxxxxxxxxxxxxx0xxxxxxx1100011 011 # SB SH SW
+xxxxxxxxxxxxxxxxxx0xxxxxx1100011 100 # BEQ BNE BLT BGE
+xxxxxxxxxxxxxxxxx11xxxxxx1100011 100 # BLTU BGEU
+xxxxxxxxxxxxxxxxxxxxxxxxx0x10111 101 # LUI AUIPC
+xxxxxxxxxxxxxxxxxxxxxxxxx1101111 110 # JAL
