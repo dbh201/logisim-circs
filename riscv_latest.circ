@@ -7269,7 +7269,7 @@ fc f1 54 d5 9 e5 a4 81
       <a name="facing" val="north"/>
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(610,300)" name="NOT Gate"/>
+    <comp lib="1" loc="(560,300)" name="NOT Gate"/>
     <comp lib="4" loc="(470,290)" name="S-R Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="System_reset_latch"/>
@@ -7284,7 +7284,7 @@ fc f1 54 d5 9 e5 a4 81
     <wire from="(390,550)" to="(500,550)"/>
     <wire from="(400,320)" to="(450,320)"/>
     <wire from="(440,260)" to="(440,300)"/>
-    <wire from="(440,260)" to="(540,260)"/>
+    <wire from="(440,260)" to="(590,260)"/>
     <wire from="(440,300)" to="(460,300)"/>
     <wire from="(450,270)" to="(450,320)"/>
     <wire from="(450,270)" to="(490,270)"/>
@@ -7293,9 +7293,9 @@ fc f1 54 d5 9 e5 a4 81
     <wire from="(490,270)" to="(490,290)"/>
     <wire from="(490,350)" to="(490,420)"/>
     <wire from="(500,450)" to="(500,550)"/>
-    <wire from="(520,300)" to="(540,300)"/>
-    <wire from="(540,260)" to="(540,300)"/>
-    <wire from="(540,300)" to="(580,300)"/>
-    <wire from="(610,300)" to="(660,300)"/>
+    <wire from="(520,300)" to="(530,300)"/>
+    <wire from="(560,300)" to="(590,300)"/>
+    <wire from="(590,260)" to="(590,300)"/>
+    <wire from="(590,300)" to="(660,300)"/>
   </circuit>
 </project>
