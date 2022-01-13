@@ -1,0 +1,5 @@
+# Logisim PLA program table
+# INPUT:
+# funct7 funct3 opcode
+# ======= === =======
+xxxxxxxxxx0110111 0100 # LUI = from imm, to rd

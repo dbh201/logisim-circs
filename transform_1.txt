@@ -1,0 +1,2 @@
+# Logisim PLA program table
+xxxxxxxxxx0110111 000100 # LUI
